@@ -27,7 +27,7 @@ h1 {
     width: 100%;
     border-spacing: 0;
     margin-top: 80px;
-    border-right: 0px solid rgb(107, 105, 105);
+    /*border-right: 1px solid rgb(107, 105, 105);*/
   }
   th {
     border: none;
@@ -47,14 +47,16 @@ h1 {
   }
   body {
     font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 35px;
+    margin-bottom: 55px;
   }
-  
-  .container {
+  .article-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 1000px;
   }
   .article {
     flex-grow: 1;
@@ -67,7 +69,7 @@ h1 {
     width: 35%;
   }
   hr {
-    width: 300px;
+    width: 60%;
     margin: 0%;
   }
   
@@ -75,12 +77,6 @@ h1 {
     text-align: right;
     margin-left: 0;
   }
-  .right-center {
-    text-align: center;
-    margin-left: 0;
-
-  }
-
   h4 {
     margin-right: 90px;
     color: rgb(23, 23, 68);
@@ -105,4 +101,3 @@ h1 {
     height: 25px;
 
   }
-
